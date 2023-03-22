@@ -28,15 +28,16 @@ git log
 
 ## Descargar repositorio de la nube
 
-```bash
-git clone  
-git pull
-```
+
 ### clone
 copia el repositorio del link que se le es dado en el link
 ### pull
 actualiza el repositorio a la ultima version en la nube
 
+```bash
+git clone  
+git pull
+```
 
 ## .gitignore
 
