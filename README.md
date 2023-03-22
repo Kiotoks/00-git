@@ -2,17 +2,7 @@
 
 ## Comandos basicos
 
-```bash
-git init
-git add *nombre del archivo*
-git commit -m "mensaje del commit"
-git commit --amend
-git status
-git log 
-git clone  
-git pull
 
-```
 
 ### Innit
 crea el repositorio de git
@@ -25,16 +15,38 @@ modifica el commit anterior
 ### status
 te muestra el estado devtu proximo commit
 ### log
-muestra la lista devtodos los commits creados
-## .gitignore
-git ignora lo que este dentro de este archivo a la hora de usar el git add
-## clone
+muestra la lista devtodos los commits creado
+
+```bash
+git init
+git add *nombre del archivo*
+git commit -m "mensaje del commit"
+git commit --amend
+git status
+git log 
+```
+
+## Descargar repositorio de la nube
+
+```bash
+git clone  
+git pull
+```
+### clone
 copia el repositorio del link que se le es dado en el link
-## pull
+### pull
 actualiza el repositorio a la ultima version en la nube
+
+
+## .gitignore
+
+git ignora lo que este dentro de este archivo a la hora de usar el git add
 
 ```
 passwords.txt
 build/
 *.jpg
 ```
+
+
+
