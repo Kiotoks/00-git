@@ -55,10 +55,15 @@ build/
 git checkout  -b *nombre para la rama nueva*
 git checkout *nombre de rama a la que queres cambiar*
 git merge *nombre de la rama con la que se quiere fusionar*
+git stash
+git push --set -upstream origin *nombre de rama*
+git diff
+git diff tool
+git checkout *id*
 ```
 ### chekout -b
 
-crea una rama nueva
+crea una rama nueva y lleva los archivos
 
 ### chekout
 
@@ -68,3 +73,19 @@ pasa a la rama que se desee
 
 fusiona los archivos de dos ramas (en la que se usa y la que se especifica)
 
+### stash
+
+limpia el commit
+
+### --set -upstream
+
+crea una rama en el github
+
+### diff / difftool
+
+ver diferencias entre los archivos
+difftool solo puede ser usado si esta instalado MELD
+
+### checkout con id
+
+se puede volver para atras hacia el commit deseado pero alterar algo puede que genere errores
